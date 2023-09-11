@@ -1,0 +1,109 @@
+
+body{
+background: url(assests/project1\ img.png);
+
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+
+
+
+.img{
+    width: 40%;
+    height: 30%;
+    
+ 
+}
+.name-logo{
+    font-weight: 600;
+    margin-left: 9px;
+    text-decoration: underline;
+}
+.nav-bar{
+    display: block;
+    position: absolute;
+    right: 30%;
+    top: 5%;
+    margin: 10px;
+}
+.nav-btn{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin: 5px;
+    color: darkslategray;
+    cursor: grab;
+
+}
+.nav-btn:hover{
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: whitesmoke;
+}
+.btn{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 7%;
+}
+.nav-btn2{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: blue;
+
+}
+.nav-btn2:hover{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+.sec{
+    font-size: 30px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+.para{
+    display: block;
+    width: 32%;
+    font-size: 25px;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    width: 50%;
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+}
+form{
+    display: flex;
+    width: 600px;
+    height: 55px;
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button{
+    background-color: aqua;
+    padding: 10px 50px;
+    border: none;
+    outline: line;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.head2{
+    position: absolute;
+    right: 25%;
+    bottom: 2%;
+    font-size: 25px;
+}
